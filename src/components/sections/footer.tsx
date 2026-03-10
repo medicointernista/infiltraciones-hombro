@@ -139,10 +139,13 @@ const Footer = () => {
               </div>
 
             <div className="flex items-center">
-              <img 
-                src="https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/test-clones/50b6fa5e-f10d-49ed-8273-b0052f67706b-purple-weasel-609287-hostingersite-com/assets/images/wilmer-obregon-logo-DT1tnFmb-1-1.png" 
-                alt="Logo del Dr. Willmer Obregón" 
+              <img
+                src="https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/test-clones/50b6fa5e-f10d-49ed-8273-b0052f67706b-purple-weasel-609287-hostingersite-com/assets/images/wilmer-obregon-logo-DT1tnFmb-1-1.png"
+                alt="Dr. Willmer Obregón - Médico Internista en Medellín"
                 className="h-10 md:h-12 w-auto grayscale opacity-50"
+                width="100"
+                height="48"
+                loading="lazy"
               />
             </div>
 

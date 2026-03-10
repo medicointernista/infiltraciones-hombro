@@ -39,10 +39,10 @@ const Benefits = () => {
       <div className="container mx-auto px-6 max-w-[1280px]">
         <div className="max-w-3xl mb-12 md:mb-16">
           <h2 className="text-[1.875rem] font-semibold tracking-tight text-[#0F172A] leading-[1.2] md:text-[2.25rem]">
-            Beneficios del Tratamiento
+            Beneficios de las Infiltraciones de Ácido Hialurónico en Rodilla y Hombro
           </h2>
           <p className="mt-4 text-[1rem] leading-[1.6] text-[#64748B] md:text-[1.125rem]">
-            Descubre cómo las infiltraciones de ácido hialurónico pueden transformar tu movilidad y bienestar diario.
+            Descubre cómo las infiltraciones de ácido hialurónico pueden transformar tu movilidad, reducir el dolor articular y mejorar tu bienestar diario en Medellín.
           </p>
         </div>
 

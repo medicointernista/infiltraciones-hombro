@@ -13,10 +13,10 @@ const CtaBanner = () => {
               {/* Content Area */}
               <div className="max-w-2xl text-left">
                 <h2 className="text-[1.875rem] md:text-[2.25rem] font-semibold tracking-tight text-[#0F172A] leading-[1.2]">
-                  ¿Buscas alivio para tu dolor articular?
+                  ¿Buscas Alivio para tu Dolor Articular en Rodilla o Hombro?
                 </h2>
                 <p className="mt-4 text-[1rem] md:text-[1.125rem] leading-[1.6] text-[#64748B]">
-                  No permitas que el dolor limite tu vida. Agenda hoy mismo tu consulta de infiltración con el Dr. Willmer Obregón.
+                  No permitas que el dolor limite tu vida. Agenda hoy mismo tu consulta de infiltración de ácido hialurónico con el Dr. Willmer Obregón en Medellín.
                 </p>
               </div>
 

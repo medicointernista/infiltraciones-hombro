@@ -27,7 +27,7 @@ const HeroSection = () => {
 
               {/* Headline */}
               <h1 className="mt-6 text-balance text-[2.25rem] font-semibold tracking-tight text-[#0F172A] leading-tight md:text-[3rem] lg:text-[3.75rem]">
-                Infiltraciones de <span className="text-[#1080A0]">Ácido Hialurónico</span> en Medellín - Dr. Willmer Obregón
+                Infiltraciones de <span className="text-[#1080A0]">Ácido Hialurónico</span> en Medellín | Dr. Willmer Obregón - Médico Internista
               </h1>
 
             {/* Description */}
@@ -76,13 +76,14 @@ const HeroSection = () => {
             
             <figure className="relative overflow-hidden rounded-[2rem] border border-[#E2E8F0] bg-white shadow-[0_20px_25px_-5px_rgba(0,0,0,0.05),0_8px_10px_-6px_rgba(0,0,0,0.05)] transition-transform duration-500 hover:scale-[1.01]">
                 <div className="relative h-[450px] w-full md:h-[650px]">
-                      <Image 
-                        src="https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/render/image/public/project-uploads/50b6fa5e-f10d-49ed-8273-b0052f67706b/Tratamiento-de-Rodilla-hero-1769344113093.jpg?width=8000&height=8000&resize=contain" 
-                        alt="Tratamiento de rodilla avanzada con ácido hialurónico - Dr. Willmer Obregón"
+                      <Image
+                        src="https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/render/image/public/project-uploads/50b6fa5e-f10d-49ed-8273-b0052f67706b/Tratamiento-de-Rodilla-hero-1769344113093.jpg?width=8000&height=8000&resize=contain"
+                        alt="Infiltraciones de ácido hialurónico para tratamiento de rodilla en Medellín - Dr. Willmer Obregón, médico internista especializado en dolor articular y movilidad"
                         fill
                         priority
                         className="object-cover object-center"
                         sizes="(max-width: 768px) 100vw, 50vw"
+                        loading="eager"
                       />
                 </div>
               

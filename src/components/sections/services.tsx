@@ -7,21 +7,21 @@ const services = [
       description: "Infiltraciones precisas para bursitis y tendinitis, recuperando el rango de movimiento sin dolor.",
       image: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/render/image/public/project-uploads/50b6fa5e-f10d-49ed-8273-b0052f67706b/Tratamiento-de-Hombro-1769344249530.png?width=8000&height=8000&resize=contain",
       link: "#contacto",
-      alt: "Tratamiento de hombro - Infiltraciones precisas para bursitis y tendinitis"
+      alt: "Infiltración de ácido hialurónico en hombro para tratamiento de bursitis y tendinitis en Medellín - Dr. Willmer Obregón"
     },
     {
       title: "Tratamiento de Rodilla",
       description: "Viscosuplementación avanzada para artrosis y lesiones de tejidos blandos, mejorando la lubricación articular.",
       image: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/render/image/public/project-uploads/50b6fa5e-f10d-49ed-8273-b0052f67706b/Tratamiento-de-Rodilla-hero-1769344113093.jpg?width=8000&height=8000&resize=contain",
       link: "#contacto",
-      alt: "Tratamiento avanzado de rodilla - Viscosuplementación"
+      alt: "Viscosuplementación con ácido hialurónico para tratamiento de rodilla, artrosis y dolor articular en Medellín"
     },
     {
       title: "Ácido Hialurónico",
       description: "Actúa como lubricante y amortiguador natural, reduciendo la fricción y el dolor de forma segura.",
       image: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/render/image/public/project-uploads/50b6fa5e-f10d-49ed-8273-b0052f67706b/Acido-Hialuronico-1769344216156.jpg?width=8000&height=8000&resize=contain",
       link: "#contacto",
-      alt: "Tratamiento con ácido hialurónico - Lubricante y amortiguador articular"
+      alt: "Infiltraciones de ácido hialurónico como lubricante y amortiguador articular natural para alivio del dolor"
     }
 ];
 
@@ -32,10 +32,10 @@ export default function Services() {
         {/* Header Content */}
         <div className="max-w-3xl mb-12">
           <h2 className="text-[1.875rem] font-semibold tracking-tight text-[#0F172A] leading-[1.2] md:text-[2.25rem]">
-            Servicios de Infiltraciones de Ácido Hialurónico en Medellín
+            Tratamientos con Infiltraciones de Ácido Hialurónico en Medellín
           </h2>
           <p className="mt-4 text-[1rem] leading-[1.6] text-[#64748B] md:text-[1.125rem]">
-            Las infiltraciones de ácido hialurónico reducen la fricción y el dolor en articulaciones. Es un procedimiento rápido, seguro y ambulatorio, realizado en consultorio para maximizar tu recuperación.
+            Las infiltraciones de ácido hialurónico reducen la fricción y el dolor en articulaciones como rodilla y hombro. Procedimiento rápido, seguro y ambulatorio, realizado en consultorio médico especializado para maximizar tu recuperación y movilidad.
           </p>
         </div>
 
@@ -61,7 +61,7 @@ export default function Services() {
               {/* Card Content */}
               <div className="flex flex-1 flex-col p-6">
                 <h3 className="text-[1.125rem] font-semibold tracking-tight text-[#0F172A] leading-[1.4] transition-colors group-hover:text-[#1080A0]">
-                  {service.title}
+                  {service.title} en Medellín
                 </h3>
                 <p className="mt-3 text-[0.875rem] leading-[1.6] text-[#64748B]">
                   {service.description}
@@ -73,7 +73,7 @@ export default function Services() {
 
         {/* Indications Section */}
         <div className="bg-white rounded-[2rem] p-8 md:p-12 border border-[#E2E8F0] shadow-sm">
-          <h3 className="text-[1.5rem] font-semibold text-[#0F172A] mb-6">Indicaciones del tratamiento</h3>
+          <h3 className="text-[1.5rem] font-semibold text-[#0F172A] mb-6">Indicaciones del Tratamiento con Ácido Hialurónico</h3>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <div>
               <p className="text-[#64748B] leading-relaxed">

@@ -36,7 +36,7 @@ export default function ExperienceAndAbout() {
                 Conoce al especialista
               </span>
               <h2 className="text-[1.875rem] font-semibold tracking-tight text-[#0F172A] leading-[1.2] mb-6">
-                Dr. Willmer Obregón: trayectoria y experiencia
+                Dr. Willmer Obregón - Médico Internista en Medellín: Trayectoria y Experiencia
               </h2>
               <p className="text-[1rem] leading-[1.6] text-[#64748B] mb-8">
                 Médico con más de 15 años de experiencia, formado en Venezuela y consolidado en Medellín. Experto en tratamientos no quirúrgicos y cuidado integral de la salud con un enfoque empático y personalizado.
@@ -85,9 +85,9 @@ export default function ExperienceAndAbout() {
           {/* Right Column: Sobre mí & Clinical Approach */}
           <div className="flex flex-col gap-8">
             <div>
-              <h2 className="text-[2.25rem] font-semibold tracking-tight text-[#0F172A] leading-[1.2] mb-4">
-                Enfoque Integral
-              </h2>
+              <h3 className="text-[2.25rem] font-semibold tracking-tight text-[#0F172A] leading-[1.2] mb-4">
+                Enfoque Integral en Medicina Interna y Tratamientos Articulares
+              </h3>
               <p className="text-[1.0625rem] leading-[1.6] text-[#64748B]">
                 Nuestra atención considera aspectos físicos y emocionales para un cuidado completo. Construimos un plan de salud basado en el compromiso ético y profesional.
               </p>
@@ -100,7 +100,7 @@ export default function ExperienceAndAbout() {
                 <div className="w-10 h-10 rounded-xl bg-[#E1F1F6] flex items-center justify-center text-[#1080A0] mb-4">
                   <Stethoscope className="w-5 h-5" />
                 </div>
-                <h4 className="text-[1rem] font-bold text-[#0F172A] mb-1">Atención empática</h4>
+                <p className="text-[1rem] font-bold text-[#0F172A] mb-1">Atención empática</p>
                 <p className="text-[13px] leading-relaxed text-[#64748B]">Escucha activa y trato humano en cada consulta.</p>
               </div>
 
@@ -109,7 +109,7 @@ export default function ExperienceAndAbout() {
                 <div className="w-10 h-10 rounded-xl bg-[#E1F1F6] flex items-center justify-center text-[#1080A0] mb-4">
                   <ClipboardCheck className="w-5 h-5" />
                 </div>
-                <h4 className="text-[1rem] font-bold text-[#0F172A] mb-1">Seguimiento</h4>
+                <p className="text-[1rem] font-bold text-[#0F172A] mb-1">Seguimiento</p>
                 <p className="text-[13px] leading-relaxed text-[#64748B]">Acompañamiento continuo vía WhatsApp.</p>
               </div>
 
@@ -118,7 +118,7 @@ export default function ExperienceAndAbout() {
                 <div className="w-10 h-10 rounded-xl bg-[#E1F1F6] flex items-center justify-center text-[#1080A0] mb-4">
                   <ShieldCheck className="w-5 h-5" />
                 </div>
-                <h4 className="text-[1rem] font-bold text-[#0F172A] mb-1">Ética Profesional</h4>
+                <p className="text-[1rem] font-bold text-[#0F172A] mb-1">Ética Profesional</p>
                 <p className="text-[13px] leading-relaxed text-[#64748B]">Compromiso ético y formación constante.</p>
               </div>
 
@@ -127,7 +127,7 @@ export default function ExperienceAndAbout() {
                 <div className="w-10 h-10 rounded-xl bg-[#E1F1F6] flex items-center justify-center text-[#1080A0] mb-4">
                   <HeartHandshake className="w-5 h-5" />
                 </div>
-                <h4 className="text-[1rem] font-bold text-[#0F172A] mb-1">Personalización</h4>
+                <p className="text-[1rem] font-bold text-[#0F172A] mb-1">Personalización</p>
                 <p className="text-[13px] leading-relaxed text-[#64748B]">Tratamientos adaptados a tu estilo de vida.</p>
               </div>
             </div>
@@ -135,7 +135,7 @@ export default function ExperienceAndAbout() {
             {/* Numbered Expectation List */}
             <div className="rounded-2xl border border-[#E2E8F0] bg-white p-7 shadow-sm">
               <h4 className="text-[1rem] font-bold text-[#0F172A] mb-5">
-                ¿Qué puedes esperar en tu consulta?
+                ¿Qué Puedes Esperar en Tu Consulta Médica?
               </h4>
               <ul className="space-y-3">
                 {expectationList.map((item, index) => (

@@ -28,10 +28,12 @@ const Header = () => {
               aria-label="Ir al inicio" 
               href="/"
             >
-              <img 
-                src={logoAsset} 
-                alt="Logo del Dr. Willmer Obregón" 
+              <img
+                src={logoAsset}
+                alt="Dr. Willmer Obregón - Médico Internista en Medellín especializado en infiltraciones de ácido hialurónico"
                 className="h-14 md:h-16 w-auto"
+                width="120"
+                height="64"
               />
             </a>
 

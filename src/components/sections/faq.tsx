@@ -82,10 +82,10 @@ const FAQ = () => {
               Resolviendo Tus Dudas
             </div>
             <h2 className="text-[1.875rem] md:text-[2.25rem] font-semibold tracking-tight text-[#0F172A] leading-[1.2] mb-4">
-              Preguntas Frecuentes
+              Preguntas Frecuentes sobre Infiltraciones de Ácido Hialurónico
             </h2>
             <p className="text-[1rem] leading-[1.6] text-[#64748B]">
-              Encuentra respuestas a las preguntas más comunes sobre la consulta y los servicios médicos del Dr. Willmer Obregón.
+              Encuentra respuestas a las preguntas más comunes sobre el tratamiento con infiltraciones de ácido hialurónico y los servicios médicos del Dr. Willmer Obregón en Medellín.
             </p>
           </div>
 
