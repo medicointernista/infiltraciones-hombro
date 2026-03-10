@@ -1,13 +1,5 @@
 import React from 'react';
-import { 
-  CheckCircle2, 
-  Stethoscope, 
-  ClipboardCheck, 
-  ShieldCheck, 
-  HeartHandshake, 
-  Medal,
-  Award
-} from 'lucide-react';
+import { CircleCheck as CheckCircle2, Stethoscope, ClipboardCheck, ShieldCheck, HeartHandshake, Medal, Award } from 'lucide-react';
 
 export default function ExperienceAndAbout() {
   const expertiseTags = [
