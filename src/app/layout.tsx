@@ -8,8 +8,9 @@ export const metadata: Metadata = {
   description: "Agenda tu cita hoy para infiltraciones de ácido hialurónico en Medellín con el Dr. Willmer Obregón. Recupera tu movilidad y reduce el dolor de forma segura.",
   robots: "index, follow",
   icons: {
-    icon: "/favicon.png",
-    apple: "/favicon.png",
+    icon: "/Favicon_willmer_obregon.png",
+    apple: "/Favicon_willmer_obregon.png",
+    shortcut: "/Favicon_willmer_obregon.png",
   },
 };
 
