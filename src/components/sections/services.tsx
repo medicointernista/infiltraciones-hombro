@@ -61,7 +61,7 @@ export default function Services() {
               {/* Card Content */}
               <div className="flex flex-1 flex-col p-6">
                 <h3 className="text-[1.125rem] font-semibold tracking-tight text-[#0F172A] leading-[1.4] transition-colors group-hover:text-[#1080A0]">
-                  {service.title} en Medellín
+                  {service.title}
                 </h3>
                 <p className="mt-3 text-[0.875rem] leading-[1.6] text-[#64748B]">
                   {service.description}
