@@ -2,6 +2,7 @@
 
 import React from 'react';
 import { Mail, Phone, MapPin, Clock, Facebook, Instagram, Youtube, ChevronUp } from 'lucide-react';
+import { FaTiktok } from 'react-icons/fa';
 
 const Footer = () => {
   const scrollToTop = () => {
@@ -19,8 +20,8 @@ const Footer = () => {
                 Médico con más de 15 años de experiencia, experto en tratamientos no quirúrgicos y cuidado integral. Especializado en infiltraciones de ácido hialurónico para mejorar tu movilidad y calidad de vida.
               </p>
             <div className="flex items-center gap-3">
-              <a 
-                href="https://www.facebook.com/tu.internista.favorito/" 
+              <a
+                href="https://www.facebook.com/tu.internista.favorito/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center justify-center w-9 h-9 rounded-full border border-[#E2E8F0] text-[#1080A0] transition-colors hover:bg-[#E1F1F6]"
@@ -28,8 +29,8 @@ const Footer = () => {
               >
                 <Facebook size={18} />
               </a>
-              <a 
-                href="https://www.instagram.com/tu_internista_favorito/" 
+              <a
+                href="https://www.instagram.com/tu_internista_favorito/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center justify-center w-9 h-9 rounded-full border border-[#E2E8F0] text-[#1080A0] transition-colors hover:bg-[#E1F1F6]"
@@ -37,14 +38,23 @@ const Footer = () => {
               >
                 <Instagram size={18} />
               </a>
-              <a 
-                href="https://www.youtube.com/@tuinternistafavorito" 
+              <a
+                href="https://www.youtube.com/@tuinternistafavorito"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center justify-center w-9 h-9 rounded-full border border-[#E2E8F0] text-[#1080A0] transition-colors hover:bg-[#E1F1F6]"
                 aria-label="Youtube"
               >
                 <Youtube size={18} />
+              </a>
+              <a
+                href="https://www.tiktok.com/@tuinternistafavorito"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center justify-center w-9 h-9 rounded-full border border-[#E2E8F0] text-[#1080A0] transition-colors hover:bg-[#E1F1F6]"
+                aria-label="TikTok"
+              >
+                <FaTiktok size={18} />
               </a>
             </div>
           </div>
@@ -86,14 +96,26 @@ const Footer = () => {
             <ul className="space-y-4 mb-6">
               <li className="flex items-center gap-3">
                 <Mail className="text-[#1080A0] shrink-0" size={20} />
-                <a href="mailto:tuinternistafavorito@gmail.com" className="text-[0.875rem] text-[#64748B] hover:text-[#1080A0] transition-colors">
-                  tuinternistafavorito@gmail.com
+                <a href="mailto:consulta@internistamedellin.com" className="text-[0.875rem] text-[#64748B] hover:text-[#1080A0] transition-colors">
+                  consulta@internistamedellin.com
                 </a>
               </li>
               <li className="flex items-center gap-3">
                 <Mail className="text-[#1080A0] shrink-0" size={20} />
-                <a href="mailto:tuinternistaresponde@gmail.com" className="text-[0.875rem] text-[#64748B] hover:text-[#1080A0] transition-colors">
-                  tuinternistaresponde@gmail.com
+                <a href="mailto:asistente@internistamedellin.com" className="text-[0.875rem] text-[#64748B] hover:text-[#1080A0] transition-colors">
+                  asistente@internistamedellin.com
+                </a>
+              </li>
+              <li className="flex items-center gap-3">
+                <Mail className="text-[#1080A0] shrink-0" size={20} />
+                <a href="mailto:estudios@internistamedellin.com" className="text-[0.875rem] text-[#64748B] hover:text-[#1080A0] transition-colors">
+                  estudios@internistamedellin.com
+                </a>
+              </li>
+              <li className="flex items-center gap-3">
+                <Mail className="text-[#1080A0] shrink-0" size={20} />
+                <a href="mailto:procedimientos@internistamedellin.com" className="text-[0.875rem] text-[#64748B] hover:text-[#1080A0] transition-colors">
+                  procedimientos@internistamedellin.com
                 </a>
               </li>
             </ul>
@@ -102,8 +124,7 @@ const Footer = () => {
                 <Clock className="text-[#1080A0]" size={18} />
                 <span className="text-[0.75rem] font-bold text-[#64748B] uppercase tracking-wider">Horario de atención</span>
               </div>
-              <p className="text-[0.875rem] text-[#64748B] ml-6 opacity-90">Lunes a viernes: 7:00 - 12:00</p>
-              <p className="text-[0.875rem] text-[#64748B] ml-6 opacity-90">Lunes a viernes: 13:30 - 17:00</p>
+              <p className="text-[0.875rem] text-[#64748B] ml-6 opacity-90">Lunes a viernes: 8am a 5pm</p>
             </div>
           </div>
         </div>
