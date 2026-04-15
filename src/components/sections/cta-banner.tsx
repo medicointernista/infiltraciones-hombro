@@ -23,13 +23,13 @@ const CtaBanner = () => {
             {/* Action Buttons */}
             <div className="flex flex-col sm:flex-row items-center gap-4 w-full lg:w-auto">
               <a
-                href="https://api.whatsapp.com/send?phone=573053979628&text=Hola%20vi%20el%20sitio%20en%20Google%2C%20quiero%20informaci%C3%B3n%20de%20la%20consulta."
+                href="https://api.whatsapp.com/send?phone=573155930076&text=Hola%2C%20gracias%20por%20escribirnos%20desde%20nuestro%20anuncio%20en%20Google.%20El%20Dr.%20Willmer%20Obregon%20y%20su%20equipo%20est%C3%A1n%20para%20ayudarte%2C%20%C2%BFen%20qu%C3%A9%20podemos%20colaborarte%20hoy%3F"
                 className="flex items-center justify-center gap-2 whitespace-nowrap rounded-xl bg-gradient-to-r from-[#1080A0] to-[#0D6E8A] px-10 py-5 text-[1rem] font-bold text-white shadow-[0_4px_14px_0_rgba(16,128,160,0.39)] transition-all hover:scale-[1.02] hover:opacity-95 active:scale-95 w-full sm:w-auto"
               >
                 Enviar WhatsApp
               </a>
               <a
-                href="tel:+573053979628"
+                href="tel:+573155930076"
                 className="flex items-center justify-center gap-2 whitespace-nowrap rounded-xl bg-[#E1F1F6] px-10 py-5 text-[1rem] font-bold text-[#1080A0] transition-all hover:bg-[#D4EAF1] hover:scale-[1.02] active:scale-95 w-full sm:w-auto"
               >
                 <Phone className="h-5 w-5" strokeWidth={2.5} />
